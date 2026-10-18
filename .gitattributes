@@ -1,3 +1,14 @@
+# SolidWorks 原生文件
 *.sldprt filter=lfs diff=lfs merge=lfs -text
 *.sldasm filter=lfs diff=lfs merge=lfs -text
 *.slddrw filter=lfs diff=lfs merge=lfs -text
+*.sldblk filter=lfs diff=lfs merge=lfs -text
+*.sldmat filter=lfs diff=lfs merge=lfs -text
+*.sldfvt filter=lfs diff=lfs merge=lfs -text
+
+# 常见 CAD 导出/中性格式
+*.step filter=lfs diff=lfs merge=lfs -text
+*.stp filter=lfs diff=lfs merge=lfs -text
+*.iges filter=lfs diff=lfs merge=lfs -text
+*.igs filter=lfs diff=lfs merge=lfs -text
+*.stl filter=lfs diff=lfs merge=lfs -text
