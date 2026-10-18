@@ -1,14 +1,14 @@
-# team-bicycle-project
+# team-mechanical-project-2026
 
-小组协作仓库，用于存放三人的 SolidWorks 装配体文件。所有 CAD 文件通过 **Git LFS** 管理，避免仓库膨胀。
+小组协作仓库，用于存放三人的 SolidWorks 机械设计文件（零件/装配体/工程图等）。所有 CAD 文件通过 **Git LFS** 管理，避免仓库膨胀。
 
 ## 目录结构
 
 ```
-team-bicycle-project/
-├── yang_bike/   # 队长：杨
-├── su_bike/     # 队员：苏
-├── sun_bike/    # 队员：孙
+team-mechanical-project-2026/
+├── yang_mechanical/   # 队长：杨
+├── su_mechanical/     # 队员：苏
+├── sun_mechanical/    # 队员：孙
 ├── .gitattributes  # LFS 规则（勿随意改动）
 └── README.md
 ```
@@ -29,8 +29,8 @@ team-bicycle-project/
 ### 2. 克隆仓库
 
 ```bash
-git clone https://github.com/yhq325799/team-bicycle-project.git
-cd team-bicycle-project
+git clone https://github.com/yhq325799/team-mechanical-project-2026.git
+cd team-mechanical-project-2026
 ```
 
 ### 3. 初始化 LFS
@@ -48,13 +48,13 @@ git lfs install
 
 ## 提交文件流程
 
-1. 把 SolidWorks 文件（零件 `.sldprt`、装配体 `.sldasm`、工程图 `.slddrw`）复制到自己的文件夹，例如 `yang_bike/`。
+1. 把 SolidWorks 文件（零件 `.sldprt`、装配体 `.sldasm`、工程图 `.slddrw`）复制到自己的文件夹，例如 `yang_mechanical/`。
    - **注意**：装配体 `.sldasm` 依赖的零件 `.sldprt` 也要一起提交，否则别人打开装配体会缺零件。
 
 2. 提交：
 
 ```bash
-git add yang_bike
+git add yang_mechanical
 git commit -m "添加装配体 xxx"
 git pull --rebase
 git push
@@ -66,7 +66,7 @@ git push
 git lfs ls-files
 ```
 
-输出中文件名前带 `*` 表示已由 LFS 管理（例如 `abc123 * yang_bike/xxx.sldprt`）。
+输出中文件名前带 `*` 表示已由 LFS 管理（例如 `abc123 * yang_mechanical/xxx.sldprt`）。
 
 ---
 
