@@ -1,0 +1,15 @@
+# SOLIDWORKS 临时/锁文件（打开文件时自动生成，勿提交）
+~$*
+*.bak
+*.sldbak
+*.sldtmp
+*.tmp
+*.swp
+
+# 图纸/导出缓存
+*.pdf.bak
+*.dxf.bak
+
+# Windows
+Thumbs.db
+Desktop.ini
